@@ -1,0 +1,32 @@
+Compilation check using g++ -std=c++17 -Wall -Wextra -pedantic
+
+Task07/oop.cpp: PASS
+
+Task07/procedural.cpp: PASS
+
+Task04/conversions.cpp: PASS
+/mnt/data/DSA01_Assignment1_Implementation/Task04/conversions.cpp: In function ‘int main()’:
+/mnt/data/DSA01_Assignment1_Implementation/Task04/conversions.cpp:17:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+   17 |     std::cout << (s < u ? "s < u" : "s >= u") << '\n';
+      |                   ~~^~~
+
+Task10/expectation_vs_execution.cpp: PASS
+
+Task08/input_output.cpp: PASS
+
+Task05/operators.cpp: PASS
+
+Task09/implementation_testing.cpp: PASS
+
+Task12/revised_design.cpp: PASS
+
+Task03/datatypes.cpp: PASS
+
+Task11/final_design.cpp: PASS
+
+Task02/constants.cpp: PASS
+
+Task06/control_structures.cpp: PASS
+
+Task01/object_analysis.cpp: PASS
+
